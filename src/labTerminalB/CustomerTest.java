@@ -49,7 +49,7 @@ public class CustomerTest {
 		me.addRental(r2);
 		
 		//fail("Not yet implemented");
-		String output1 = "Rental Record for Nadir\r\n" + 
+		String output1 = "Rental Records for Nadir\r\n" + 
 				"	Speed	12.0"; 
 				
 		if(output1.equals(me.statement()))
