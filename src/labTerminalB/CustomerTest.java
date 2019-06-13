@@ -31,6 +31,32 @@ public class CustomerTest {
 	 * Provide at least two more test cases carefully chosen so that they satisfy our testing
 	 * strategy basics i.e. input partition etc
 	 */
+	@Test
+	public void testStatement2() {
+		me.addRental(r1);
+		
+		//fail("Not yet implemented");
+		String output1 = "Rental Record for Nadir\r\n" + 
+				"	Spancer	33.5" ; 
+				
+		if(output1.equals(me.statement()))
+		{
+			assert true;
+		}
+	}
+	@Test
+	public void testStatement3() {
+		me.addRental(r2);
+		
+		//fail("Not yet implemented");
+		String output1 = "Rental Record for Nadir\r\n" + 
+				"	Speed	12.0"; 
+				
+		if(output1.equals(me.statement()))
+		{
+			assert true;
+		}
+	}
 	
 
 }
